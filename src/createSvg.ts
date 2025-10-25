@@ -5,7 +5,7 @@ export function createHanziSvg(
     strokeColor: string,
     outlineColor: string,
 ) {
-    const brushWidth = 150;
+    const brushWidth = 210;
 
     const strokeLengths = characterData.medians.map((points) => {
         var length = 0;
