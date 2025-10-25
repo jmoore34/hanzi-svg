@@ -20,5 +20,9 @@
   },
   "dependencies": {
     "@amitkhare/indexed-storage": "^1.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/jmoore34/hanzi-svg.js.git",
+    "type": "git"
   }
 }
