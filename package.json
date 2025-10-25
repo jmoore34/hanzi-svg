@@ -1,17 +1,24 @@
 {
   "name": "hanzi-svg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Easily embed Hanzi stroke order animations",
   "main": "dist/index.min.js",
   "scripts": {
     "rolldown": "rolldown",
     "build": "rolldown src/index.ts --file dist/index.min.js --minify"
   },
-  "keywords": ["hanzi","Chinese","SVG"],
-  "author": "Jonathan Moore <jonm@duck.com> (https://jmoore34.github.io)",
+  "keywords": [
+    "hanzi",
+    "Chinese",
+    "SVG"
+  ],
+  "author": "Jon Moore <jonm@duck.com> (https://jmoore34.github.io)",
   "license": "MIT",
-  "packageManager": "pnpm@10.18.3",
+  "packageManager": "pnpm@10.19.0",
   "devDependencies": {
-    "rolldown": "1.0.0-beta.43"
+    "rolldown": "1.0.0-beta.44"
+  },
+  "dependencies": {
+    "@amitkhare/indexed-storage": "^1.2.0"
   }
 }
